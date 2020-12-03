@@ -492,7 +492,7 @@ void devolveLivro(aluno *pA, int tam, livro *pL, int qtde, int *pmaxdiames)
 	}
 
 	do
-	{ //obs: seria legal validar se a data digitada é maior que a data de retirada
+	{
 		printf("\nPor favor, informe a data de hoje (dd/mm): ");
 		scanf("%d/%d", &diaAtual, &mesAtual);
 		if (validaData(diaAtual, mesAtual, *(pmaxdiames + mesAtual - 1)))
